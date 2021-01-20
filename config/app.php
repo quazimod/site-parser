@@ -2,6 +2,8 @@
 
 return [
 
+    'STORE_URL' => 'https://www.wildberries.ru/promotions/final-rasprodazh-igrushki-knigi/inostrannye-knigi',
+
     /*
     |--------------------------------------------------------------------------
     | Application Name
