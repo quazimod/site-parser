@@ -2,7 +2,7 @@
 
 return [
 
-    'STORE_URL' => 'https://www.wildberries.ru/promotions/final-rasprodazh-igrushki-knigi/inostrannye-knigi',
+    'STORE_URL' => 'https://www.wildberries.ru/catalog/knigi/hudozhestvennaya-literatura/knigi-na-inostrannyh-yazykah',
 
     /*
     |--------------------------------------------------------------------------
