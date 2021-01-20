@@ -26,7 +26,7 @@ class HomeController extends Controller
         $storeUrl = config('app.STORE_URL');
         $baseStoreURL = parse_url($storeUrl)['host'];
 
-        for ($i =0; $i < 1;$i++) {
+        for ($i =0; $i < 3;$i++) {
             $body = Http::get($storeUrl, ['page' => $i+1])->body();
             $crawler = new Crawler($body);
             $nodes = $crawler->filter('.j-card-item');
